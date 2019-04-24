@@ -323,3 +323,17 @@ footer {
 	margin-bottom: 30px;
 	margin-top: 80px;
 }
+
+/* WHEN THE WIDTH OF THE BROWSER/DISPLAY IS <= 600px the .content boxes will stack up */
+@media screen and (max-width: 600px) {
+	.content {
+		margin-top: 30px;
+		padding-bottom: 20px;
+		width: 100%;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-between;
+		border-bottom: 2px solid black;
+
+	}
+}
