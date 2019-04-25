@@ -166,76 +166,112 @@ h5 {
 	box-sizing: inherit;
 }
 
+body {
+	border: 3px solid black;
+	margin: 0 auto;
+	width: 1000px;
+	height: auto;
+}
+
 .main {
 	margin-top: 20px;
 	/* margin: 0px; */
 	display: flex;
 	flex-direction: column;
 	margin: 50px;
+	border: 1px solid red;
 
 }
 
 .container {
 	width: 1000px;
 	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.navContainer {
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+}
+
+.navContainer img {
+	margin-top: 20px;
+}
+
+.nav-img {
+	margin-left: 50px;
 }
 
 .container nav a {
 	color: grey;
 	text-decoration: none;
 	margin: 30px;
+	border: 1px solid red;
 }
 
 .container nav a:hover {
 	text-decoration: underline;
+	border: 1px solid red;
 }
 
 nav {
 	display: flex;
-	overflow: hidden;
-	position: fixed;
-	top: 0;
 	height: 6%;
 	align-items: center;
-	margin-left: 48px;
 	background-color: white;
+	border: 1px solid green;
 }
 
 nav a:hover {
 	background: orange;
 	color: black;
+	border: 1px solid red;
+}
+
+.navbar-brand {
+	background-color: white;
+	width: 325px;
+	border: 1px solid red;
 }
 
 .navbar-brand:hover {
 	background: none;
+	border: 1px solid red;
 }
 
 .header-one {
 	margin-top: 30px;
 	padding-bottom: 25px;
 	border-bottom: 1px solid black;
+	border: 1px solid red;
 }
 
 .header-one-title {
 	font-family: 'Bangers', cursive;
 	font-size: 25px;
 	padding-bottom: 20px;
+	border: 1px solid red;
 }
 
 header img {
 	margin-top: 12px;
 	width: 100%;
 	height: auto;
-
+	border: 1px solid red;
 }
 
 p {
 	line-height: 1.25;
+	border: 1px solid red;
 }
 
 
 h2 {
 	text-align: left;
+	border: 1px solid red;
 }
 
 
@@ -247,6 +283,7 @@ h2 {
 	flex-flow: row wrap;
 	justify-content: space-between;
 	border-bottom: 2px solid black;
+	border: 1px solid red;
 
 }
 
@@ -260,12 +297,14 @@ h2 {
 	margin-bottom: 20px;
 	border: 1px solid black;
 	background-color: #f4f3f4;
+	border: 1px solid red;
 }
 
 .box-title {
 	font-family: 'Bangers', cursive;
 	font-size: 19px;
 	padding-bottom: 20px;
+	border: 1px solid red;
 }
 
 button {
@@ -277,6 +316,7 @@ button {
 	margin-top: 20px;
 	padding: 11px 40px 11px 40px;
 	border-radius: 8px;
+	border: 1px solid red;
 }
 
 button:hover {
@@ -290,6 +330,7 @@ button:hover {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+	border: 1px solid red;
 }
 
 .box-without-border {
@@ -300,20 +341,24 @@ button:hover {
 	height: 190px;
 	margin-bottom: 20px;
 	background-color: #f4f3f4;
+	border: 1px solid red;
 }
 
 .services-info-img {
 	height: 320px;
 	width: 420px;
+	border: 1px solid red;
 }
 
 ul {
 	list-style-type: square;
 	margin-left: 20px;
+	border: 1px solid red;
 }
 
 li {
 	margin-top: 15px;
+	border: 1px solid red;
 }
 
 footer {
@@ -322,6 +367,7 @@ footer {
 	justify-content: center;
 	margin-bottom: 30px;
 	margin-top: 80px;
+	border: 1px solid red;
 }
 
 /* WHEN THE WIDTH OF THE BROWSER/DISPLAY IS <= 600px the .content boxes will stack up */
@@ -334,6 +380,5 @@ footer {
 		flex-flow: column wrap;
 		justify-content: space-between;
 		border-bottom: 2px solid black;
-
 	}
 }
